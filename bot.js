@@ -202,4 +202,4 @@ client.on('message', msg => {
 
     
 
-client.login(ayarlar.token);
+client.login(process.env.BOT_TOKEN);
